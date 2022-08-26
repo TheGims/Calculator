@@ -1,7 +1,21 @@
 from tkinter import *
-
 ventana = Tk()
-
 ventana.title("Calculadora")
+e_texto = Entry(ventana, font= ("Calibri 20"))
+e_texto.grid(row = 0, column = 0, columnspan = 4, padx = 5, pady = 5)
+boton1 = Button(ventana, text = "", width = 5, height = 2)
+boton2 = Button(ventana, text = "", width = 5, height = 2)
+boton3 = Button(ventana, text = "", width = 5, height = 2)
+boton4 = Button(ventana, text = "", width = 5, height = 2)
+boton5 = Button(ventana, text = "", width = 5, height = 2)
+boton6 = Button(ventana, text = "", width = 5, height = 2)
+boton7 = Button(ventana, text = "", width = 5, height = 2)
+boton8 = Button(ventana, text = "", width = 5, height = 2)
+boton9 = Button(ventana, text = "", width = 5, height = 2)
+boton0 = Button(ventana, text = "", width = 5, height = 2)
 
+boton0 = Button(ventana, text = "", width = 5, height = 2)
+boton0 = Button(ventana, text = "", width = 5, height = 2)
+boton0 = Button(ventana, text = "", width = 5, height = 2)
+boton0 = Button(ventana, text = "", width = 5, height = 2)
 ventana.mainloop()
